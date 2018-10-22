@@ -6,8 +6,8 @@ class Udacian:
         self.nanodegree = nanodegree
         self.status = status
 
-    def getName(self):
+    def getInformation(self):
         print(self.name + " " + self.city + " " + self.enrollment + " " + self.nanodegree + " " + self.status)
 
 test = Udacian("Mohammed Bokhari", "Jeddah", "Student", "Full-Stack", "--")
-test.getName()
+test.getInformation()
